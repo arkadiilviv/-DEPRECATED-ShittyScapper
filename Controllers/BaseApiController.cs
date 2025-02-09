@@ -19,7 +19,7 @@ public class BaseApiController : ControllerBase
         {
             otodomScrapper.AddParameter(param.Name, param.Value);
         }
-        otodomScrapper.Scrap();
+        otodomScrapper = await otodomScrapper.Scrap();
         return new JsonResult(otodomScrapper.GetFormatedData());
     }
 }
