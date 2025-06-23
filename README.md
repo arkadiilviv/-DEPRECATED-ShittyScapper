@@ -1,5 +1,5 @@
 # ShittyScapper
-
+**[DEPRECATED]**
 **.NET 9 real estate scrapper**
 
 Inputing
